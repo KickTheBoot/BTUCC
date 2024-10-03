@@ -30,7 +30,8 @@ The resetter restores the state of collectibles to it's default state (Hence its
 
 The resetter consists of 2 components:
 1. a Relay To All Module
-2. a Button\
+2. a Button
+
 Configure the ```@Run``` of the Relay To All collectibles and their visual representations like this:
 ![Reset Relay](images/Collectathon_ResetRelay.png)
 Configure the button's ```OnPressed``` event like this:
