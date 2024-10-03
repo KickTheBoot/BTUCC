@@ -18,7 +18,7 @@ Collectibles are a core part of the system.  You wouldn't be looking for anythin
 The Collectible consists of 3 components
 1. a button
 2. a relay for organization
-3. an optional item representing the collectible if the interactable part is meshless (in this case we use the coveted potato)
+3. an optional item representing the collectible if the interactable part is meshless (in this case we use the coveted potato)\
 ![Button And Potato](images/Collectathon_Potato.png)
 ![Item Collection Relay](images/Collectathon_CollectionRelay.png)
 Configure the button's ```OnPressed``` event like this:
@@ -30,7 +30,7 @@ The resetter restores the state of collectibles to it's default state (Hence its
 
 The resetter consists of 2 components:
 1. a Relay To All Module
-2. a Button
+2. a Button\
 Configure the ```@Run``` of the Relay To All collectibles and their visual representations like this:
 ![Reset Relay](images/Collectathon_ResetRelay.png)
 Configure the button's ```OnPressed``` event like this:
